@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+}
+.contenu {
+    height:100% ;
+    width:84%;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(imge/mure4.jpg);
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    
+    
+
+}
+h2 {
+    text-align: center;
+    padding-top: 40px;
+    font-size:50px;
+    color: #fff;
+}
+img {
+    padding: 40px;
+    height: 300px;
+    width: 500px;
+    border-radius: 70px;
+    float: left;
+    margin-top: 71px;
+}
+.text p {
+    color: #fff;
+    margin: 0;
+    padding: 70px;
+    border-radius: 10px;
+    line-height:1.4 ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 18px;
+}
+iframe {
+    width: 600px;
+    height: 300px;
+    margin:5rem auto;
+    margin-top: 31px ;
+    padding-left: 34rem;
+    border-radius: 20px;
+}
+.card1 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 250px ;
+    grid-template-areas: "image" "text" ;
+    border-radius: 18px;
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:justify;
+    width: 300px;
+    height: 500px;
+    margin-top: 180px;
+    transform-style: preserve-3d;
+    background-color: #1d1d1d;
+    
+    
+}
+.card1 .image1 {
+    grid-area: image;
+    background-image: linear-gradient(#fff0 0%,#fff0 70%,#1d1d1d 100%) ,url(imge/muraille2.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card-text1 p {
+    color: gray;
+    font-size:18px ;
+    font-weight: 300;
+    margin-top: 20px;
+    grid-area: text;
+    margin:0px;
+    transform: translateZ(30px);
+}
+.card-text1 h3 {
+    margin-top: 10px;
+    font-size: 28px;
+    text-align: center;
+}
+.card2 .image2 {
+    grid-area: image;
+    background-image:linear-gradient(#fff0 0%,#fff0 70%,#1d1d1d 100%) , url(imge/muraille3.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card2 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 250px ;
+    grid-template-areas: "image" "text" ;
+    border-radius: 18px;
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:justify;
+    width: 300px;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: -499px;
+    transform-style: preserve-3d;
+    background-color: #1d1d1d;
+}
+.card-text2 p {
+    color: gray;
+    font-size:18px ;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.card-text2 h3 {
+    margin-top: 10px;
+    font-size: 28px;
+    text-align: center;
+}
+.card3 {
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 250px ;
+    grid-template-areas: "image" "text" ;
+    border-radius: 18px;
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:justify;
+    width: 300px;
+    height: 500px;
+    margin-left: 800px;
+    margin-top: -500px;
+    transform-style: preserve-3d;
+    background-color: #1d1d1d;
+}
+.card3 .image3 {
+    grid-area: image;
+    background-image: linear-gradient(#fff0 0%,#fff0 70%,#1d1d1d 100%) ,url(imge/muraille4.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+.card-text3 p {
+    color: gray;
+    font-size:18px ;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.card-text3 h3 {
+    margin-top: 10px;
+    font-size: 28px;
+    text-align: center;
+}
+.rgb1::after {
+    content: "";
+    background: linear-gradient( 45deg,
+    green 0%,
+    rgb(117, 206, 241) 20%,
+    rgb(95, 145, 211) 30%,
+    rgb(48, 48, 153)50%,
+    rgb(105, 16, 207) 60%,
+    rgb(248, 102, 236) 80%,
+    rgb(168, 50, 123) 90%,
+    green 100% ) 
+    repeat 0% 0% / 300% 100%;
+    position: absolute;
+    inset: -3px;
+    border-radius: 10px;
+    filter: blur(8px);
+   transform: translateZ(-1px);
+    animation: rgb 6s linear infinite;
+    
+}
+@keyframes rgb1 {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+
+}
+.rgb2::after {
+    content: "";
+    background: linear-gradient( 45deg,
+    green 0%,
+    rgb(117, 206, 241) 20%,
+    rgb(95, 145, 211) 30%,
+    rgb(48, 48, 153)50%,
+    rgb(105, 16, 207) 60%,
+    rgb(248, 102, 236) 80%,
+    rgb(168, 50, 123) 90%,
+    green 100% ) 
+    repeat 0% 0% / 300% 100%;
+    position: absolute;
+    inset: -3px;
+    border-radius: 10px;
+    filter: blur(8px);
+    transform: translateZ(-1px);
+    animation: rgb 6s linear infinite;
+    
+}
+@keyframes rgb2 {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+
+}
+.rgb3::after {
+    content: "";
+    background: linear-gradient( 45deg,
+    green 0%,
+    rgb(117, 206, 241) 20%,
+    rgb(95, 145, 211) 30%,
+    rgb(48, 48, 153)50%,
+    rgb(105, 16, 207) 60%,
+    rgb(248, 102, 236) 80%,
+    rgb(168, 50, 123) 90%,
+    green 100% ) 
+    repeat 0% 0% / 300% 100%;
+    position: absolute;
+    inset: -3px;
+    border-radius: 10px;
+    filter: blur(8px);
+   transform: translateZ(-1px);
+    animation: rgb 6s linear infinite;
+    
+}
+@keyframes rgb3 {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+
+}
+#Text {
+    color: white;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+.text2 p {
+    color: #fff;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 40px;
+    text-decoration-line: underline;
+    margin-top: 100px;
+
+}
